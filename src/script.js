@@ -77,4 +77,6 @@ $(document).ready(function () {
   //animate() method to set the following CSS properties for <div>:
   $("div").animate({ fontSize: "100px" }, "slow");
   //animate() method to set the font-size of a <div> element to 100 pixels:
+  $("div").stop();
+  //stop the animation effect of a <div> element.
 });
