@@ -79,4 +79,6 @@ $(document).ready(function () {
   //animate() method to set the font-size of a <div> element to 100 pixels:
   $("div").stop();
   //stop the animation effect of a <div> element.
+  $("div").text();
+  //return the text content of a <div> element.
 });
