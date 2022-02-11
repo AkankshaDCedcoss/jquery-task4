@@ -24,6 +24,12 @@ dblclick
   $(this).hide();
 });
 //Use the correct event to hide all <p> elements with a "double-click".
+$("p").
+mouseenter
+(function(){
+  $(this).hide();
+});
+//When the mouse pointer enters a <p> element, it should be hidden.
 
 
 
