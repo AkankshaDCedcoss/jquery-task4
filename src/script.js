@@ -83,4 +83,6 @@ $(document).ready(function () {
   //return the text content of a <div> element.
   $("div").html();
   //return the HTML content of a <div> element.
+  $("input").val();
+  //return the value of an input field.
 });
