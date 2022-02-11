@@ -57,4 +57,6 @@ $(document).ready(function () {
     $("div").fadeToggle(1000);
   });
   //Use a jQuery method to toggle between fading in and out a <div> element, when clicking on a button.
+  $("div").slideUp();
+  //Use a jQuery method to slide up a <div> element.
 });
