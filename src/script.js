@@ -53,4 +53,8 @@ $(document).ready(function () {
   //Use a jQuery method to fade out a <div> element.
   $("div").fadeTo("slow", 0.2);
   //Use a jQuery method to fade a <div> element to an opacity of "0.2".
+  $("button").click(function () {
+    $("div").fadeToggle(1000);
+  });
+  //Use a jQuery method to toggle between fading in and out a <div> element, when clicking on a button.
 });
