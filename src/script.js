@@ -144,4 +144,6 @@ $(document).ready(function () {
   // get all ancestors of a <span> element.
   $("div").children();
   //get all direct children of a <div> element.
+  $("div").find("span");
+  // get all <span> elements that are descendants of <div>.
 });
