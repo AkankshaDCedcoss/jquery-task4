@@ -67,8 +67,14 @@ $("p").click(function(){
   });
   //Use a jQuery method to toggle between hiding and showing a <p> element.
   $("div").
-fadeout
+fadeOut
 ();
+//Use a jQuery method to fade out a <div> element.
+$("div").
+fadeOut
+(
+"slow"
+);
 //Use a jQuery method to fade out a <div> element.
 
 
