@@ -96,4 +96,6 @@ $(document).ready(function () {
   $("#myLink").text("Demo");
   $("#myLink").attr("href", "https:www.demo.com");
   //change the text of a link to "Demo",and change the value of href's attribute value"
+  $("p").append("YES!");
+  //insert the text "YES!" at the end of a <p> element.
 });
