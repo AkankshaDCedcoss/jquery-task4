@@ -85,4 +85,6 @@ $(document).ready(function () {
   //return the HTML content of a <div> element.
   $("input").val();
   //return the value of an input field.
+  $("a").attr("href");
+  //return the URL address of a link.
 });
