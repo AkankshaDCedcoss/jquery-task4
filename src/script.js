@@ -118,4 +118,6 @@ $(document).ready(function () {
   //add a pink background color to a <p> element.
   $("p").css("border", "5px dotted red");
   //add a 5 pixels red dotted border to a <p> element.
+  $("p").css("background-color");
+  //Return the background color of a <p> element.
 });
