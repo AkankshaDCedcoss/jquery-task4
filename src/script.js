@@ -148,4 +148,6 @@ $(document).ready(function () {
   // get all <span> elements that are descendants of <div>.
   $("h2").siblings();
   // get all siblings elements of an <h2> element.
+  $("div").first();
+  //get the first <div> element in the document.
 });
