@@ -129,5 +129,10 @@ $(document).ready(function () {
   //Green background color, white text color, 25 pixels font size and a padding of 15 pixels.
   $("div").height(500).width(500);
   //set the height and width of <div> to 500 pixels.
-  
+
+$("div").
+height
+()
+// get the height of a <div> element, 
+
 });
