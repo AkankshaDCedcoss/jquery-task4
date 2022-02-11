@@ -120,4 +120,11 @@ $(document).ready(function () {
   //add a 5 pixels red dotted border to a <p> element.
   $("p").css("background-color");
   //Return the background color of a <p> element.
+  $("p").css({
+    "background-color": "green",
+    color: "white",
+    "font-size": "25px",
+    padding: "15px",
+  });
+  //Green background color, white text color, 25 pixels font size and a padding of 15 pixels.
 });
