@@ -110,4 +110,8 @@ $(document).ready(function () {
   //add both the "important" and "test" class to a <p> element.
   $("p").removeClass("important");
   //remove the "important" class from a <p> element.
+  $("p").click(function () {
+    $(this).toggleClass("important");
+  });
+  // toggle between adding and removing the "important" class
 });
