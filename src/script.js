@@ -36,6 +36,10 @@ keypress
   $(this).hide();
 });
 //f you press a keyboard key inside an <input> element, it should be hidden
+$("p").on("click", function(){
+  $(this).hide();
+});
+//Use the on() method to attach a click event handler to all <p> elements.
 
 
 
