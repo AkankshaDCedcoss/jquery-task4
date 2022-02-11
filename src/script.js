@@ -142,4 +142,6 @@ $(document).ready(function () {
   // get the direct parent of a <span> element.
   $("span").parents();
   // get all ancestors of a <span> element.
+  $("div").children();
+  //get all direct children of a <div> element.
 });
