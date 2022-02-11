@@ -138,4 +138,6 @@ $(document).ready(function () {
   //get the height of a <div> element, including padding and border.
   $("div").outerHeight(true);
   //get the height of a <div> element, including padding, border and margin.
+  $("span").parent();
+  // get the direct parent of a <span> element.
 });
