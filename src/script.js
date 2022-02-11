@@ -108,4 +108,6 @@ $(document).ready(function () {
   //remove all <div> elements with class="test" and class="demo".
   $("p").addClass("important test");
   //add both the "important" and "test" class to a <p> element.
+  $("p").removeClass("important");
+  //remove the "important" class from a <p> element.
 });
