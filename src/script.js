@@ -81,4 +81,6 @@ $(document).ready(function () {
   //stop the animation effect of a <div> element.
   $("div").text();
   //return the text content of a <div> element.
+  $("div").html();
+  //return the HTML content of a <div> element.
 });
