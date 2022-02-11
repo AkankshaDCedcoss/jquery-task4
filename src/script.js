@@ -61,4 +61,6 @@ $(document).ready(function () {
   //Use a jQuery method to slide up a <div> element.
   $("div").slideUp("slow");
   //Use a jQuery method to slide up a <div> element.
+  $("div").slideDown();
+  //Use a jQuery method to slide down a <div> element.
 });
