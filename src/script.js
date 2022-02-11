@@ -130,9 +130,8 @@ $(document).ready(function () {
   $("div").height(500).width(500);
   //set the height and width of <div> to 500 pixels.
 
-$("div").
-height
-()
-// get the height of a <div> element, 
-
+  $("div").height();
+  // get the height of a <div> element,
+  $("div").innerHeight();
+  //et the height of a <div> element, including padding (not border and margin).
 });
