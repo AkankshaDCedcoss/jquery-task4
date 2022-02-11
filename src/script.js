@@ -4,6 +4,8 @@ $(document).ready(function(){
 //Use the correct selector to hide all <p> elements.
 $("#test").hide();
 //Use the correct selector to hide an element with id="test".
+$(".test").hide();
+//Use the correct selector to hide all elements with class="test".
 
 
     });
