@@ -114,4 +114,6 @@ $(document).ready(function () {
     $(this).toggleClass("important");
   });
   // toggle between adding and removing the "important" class
+  $("p").css("background-color", "pink");
+  //add a pink background color to a <p> element.
 });
