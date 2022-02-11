@@ -104,12 +104,8 @@ $(document).ready(function () {
   // remove a <div> element.
   $("div").empty();
   //remove the child elements of a <div> element.
-  $("div").
-remove
-(".test, .demo");
-//remove all <div> elements with class="test" and class="demo".
-
-
-
-
+  $("div").remove(".test, .demo");
+  //remove all <div> elements with class="test" and class="demo".
+  $("p").addClass("important test");
+  //add both the "important" and "test" class to a <p> element.
 });
