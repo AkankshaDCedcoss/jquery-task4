@@ -100,4 +100,6 @@ $(document).ready(function () {
   //insert the text "YES!" at the end of a <p> element.
   $("p").prepend("YES!");
   // insert the text "YES!" at the beginning of a <p> element.
+  $("div").remove();
+  // remove a <div> element.
 });
