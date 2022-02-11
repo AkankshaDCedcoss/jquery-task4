@@ -102,4 +102,11 @@ $(document).ready(function () {
   // insert the text "YES!" at the beginning of a <p> element.
   $("div").remove();
   // remove a <div> element.
+  $("div").empty();
+  //remove the child elements of a <div> element.
+
+
+
+
+  
 });
