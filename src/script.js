@@ -89,6 +89,6 @@ $(document).ready(function () {
   //return the URL address of a link.
   $("div").text("Hello World");
   //change the text of a <div> element to "Hello World".
-
-
+  $("input").val("John Doe");
+  //change the value of an input field to "John Doe".
 });
