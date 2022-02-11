@@ -59,4 +59,6 @@ $(document).ready(function () {
   //Use a jQuery method to toggle between fading in and out a <div> element, when clicking on a button.
   $("div").slideUp();
   //Use a jQuery method to slide up a <div> element.
+  $("div").slideUp("slow");
+  //Use a jQuery method to slide up a <div> element.
 });
