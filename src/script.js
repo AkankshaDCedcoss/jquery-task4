@@ -116,4 +116,6 @@ $(document).ready(function () {
   // toggle between adding and removing the "important" class
   $("p").css("background-color", "pink");
   //add a pink background color to a <p> element.
+  $("p").css("border", "5px dotted red");
+  //add a 5 pixels red dotted border to a <p> element.
 });
