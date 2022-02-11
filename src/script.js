@@ -92,5 +92,8 @@ $(document).ready(function () {
   $("input").val("John Doe");
   //change the value of an input field to "John Doe".
   $("img").attr("src", "myimage.jpg");
-  //change the value of an image's src attribute 
+  //change the value of an image's src attribute
+  $("#myLink").text("Demo");
+  $("#myLink").attr("href", "https:www.demo.com");
+  //change the text of a link to "Demo",and change the value of href's attribute value"
 });
