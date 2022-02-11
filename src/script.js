@@ -134,4 +134,6 @@ $(document).ready(function () {
   // get the height of a <div> element,
   $("div").innerHeight();
   //et the height of a <div> element, including padding (not border and margin).
+  $("div").outerHeight();
+  //get the height of a <div> element, including padding and border.
 });
