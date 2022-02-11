@@ -71,6 +71,8 @@ $(document).ready(function () {
     left: "250px",
   });
   //animate() method to move a <div> element 250 pixels to the right.
-  $("div").animate({height: '500px'});
+  $("div").animate({ height: "500px" });
   //animate() method to set the height of a <div> element to 500 pixels.
+  $("div").animate({ opacity: "0.4", height: "500px", width: "500px" });
+  //animate() method to set the following CSS properties for <div>:
 });
