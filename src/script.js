@@ -75,4 +75,6 @@ $(document).ready(function () {
   //animate() method to set the height of a <div> element to 500 pixels.
   $("div").animate({ opacity: "0.4", height: "500px", width: "500px" });
   //animate() method to set the following CSS properties for <div>:
+  $("div").animate({ fontSize: "100px" }, "slow");
+  //animate() method to set the font-size of a <div> element to 100 pixels:
 });
