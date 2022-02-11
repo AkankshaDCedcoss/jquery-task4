@@ -98,4 +98,6 @@ $(document).ready(function () {
   //change the text of a link to "Demo",and change the value of href's attribute value"
   $("p").append("YES!");
   //insert the text "YES!" at the end of a <p> element.
+  $("p").prepend("YES!");
+  // insert the text "YES!" at the beginning of a <p> element.
 });
