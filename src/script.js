@@ -87,4 +87,8 @@ $(document).ready(function () {
   //return the value of an input field.
   $("a").attr("href");
   //return the URL address of a link.
+  $("div").text("Hello World");
+  //change the text of a <div> element to "Hello World".
+
+
 });
