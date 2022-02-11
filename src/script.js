@@ -146,4 +146,6 @@ $(document).ready(function () {
   //get all direct children of a <div> element.
   $("div").find("span");
   // get all <span> elements that are descendants of <div>.
+  $("h2").siblings();
+  // get all siblings elements of an <h2> element.
 });
